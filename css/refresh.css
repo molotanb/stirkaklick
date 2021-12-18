@@ -73,6 +73,6 @@ i.icon-line-circle-minus.color:before {
 }
 @media (max-width:768px) {
     .fixHeader {
-        display: none;
+        display: none !important;
     }
 }
