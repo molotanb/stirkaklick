@@ -71,3 +71,8 @@ footer#footer {
 i.icon-line-circle-minus.color:before {
     color: #b10101;
 }
+@media (max-width:768px) {
+    .fixHeader {
+        display: none;
+    }
+}
