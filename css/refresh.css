@@ -81,5 +81,7 @@ i.icon-line-circle-minus.color:before {
     #header-wrap {
         background-color: #30ade2;
         padding: 10px 0;
+        position: fixed;
+        z-index: 99;
     }
 }
