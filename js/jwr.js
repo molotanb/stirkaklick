@@ -7,4 +7,7 @@ $(document).ready(function(){
             $('.fixHeader').slideUp(250);
         }
     });
+    if ($(window).width() > 768) {
+        $('.fixHeader').hide();
+    }
 });
