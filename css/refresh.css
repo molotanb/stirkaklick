@@ -1,0 +1,73 @@
+.main_color_bcg {
+    background: #25A9E1;
+}
+.jwr__title {
+    font-size: 40px
+}
+.slider-inner {
+    position: relative;
+    overflow: inherit;
+}
+.slider-element {
+    overflow: initial;
+    padding-top: 100px;
+    position: initial;
+}
+.jwr_list {
+    margin-bottom: 5px !important;
+}
+.fixHeader {
+    background: #25A9E1;
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    top: 0;
+    padding: 20px 0;
+    box-shadow: 0px 2px 25px 2px rgb(135 135 135 / 58%);
+}
+.fixHeader__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.topheader__wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+.fixHeader__logo img {
+    height: 65px;
+}
+.fixHeader__btn a {
+    margin-top: 0!important;
+}
+.topheader__phone svg {
+    width: 15px;
+}
+img.card_img {
+    margin-bottom: 15px;
+}
+.jwr__u_card h2 {
+   text-align: center;
+
+}
+.jwr__u_desc {
+    text-align: center;
+}
+.pricing-table .card h2 {
+    font-size: 30px;
+}
+.jwr__fi {
+    background-color: rgba(255, 255, 255, 0) !important;
+}
+.feature-box.media-box {
+    align-items: center;
+    text-align: center;
+}
+footer#footer {
+    padding-top: 75px;
+}
+i.icon-line-circle-minus.color:before {
+    color: #b10101;
+}

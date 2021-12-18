@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="author" content="SemiColonWeb" />
+
+	<!-- Stylesheets
+	============================================= -->
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700|Roboto:300,400,500,900&display=swap" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+	<link rel="stylesheet" href="style.css" type="text/css" />
+
+	<link rel="stylesheet" href="css/dark.css" type="text/css" />
+	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
+	<link rel="stylesheet" href="css/animate.css" type="text/css" />
+	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
+
+	<!-- Landing Demo Specific Stylesheet -->
+	<link rel="stylesheet" href="demos/landing/landing.css" type="text/css" />
+	<link rel="stylesheet" href="demos/landing/css/fonts.css" type="text/css" />
+
+	<link rel="stylesheet" href="css/custom.css" type="text/css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<link rel="stylesheet" href="css/colors.php?color=3D80E4" type="text/css" />
+	<link rel="stylesheet" href="css/refresh.css" type="text/css" />
+	
+	<!-- Document Title
+	============================================= -->
+	<title>Landing Demo | Canvas</title>
+
+
+</head>
+
+<body class="stretched">
+
+	<!-- Document Wrapper
+	============================================= -->
+	<div id="wrapper" class="clearfix">
+		<div class="topheader">
+			<div class="container">
+				<div class="topheader__wrap">
+					<div class="topheader__city"><span>г. Тюмень</span></div>
+					<div class="topheader__desc"><span>В приложении удобнее и кэшбек 100% за первый заказ бонусами</span></div>
+					<div class="topheader__phone">
+						<a href="https://api.whatsapp.com/send?phone=+79224805311">
+						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+							<g clip-path="url(#clip0_59_5)">
+							<path fill-rule="evenodd" clip-rule="evenodd" d="M17.415 14.382C17.117 14.233 15.656 13.515 15.384 13.415C15.112 13.316 14.914 13.267 14.715 13.565C14.517 13.861 13.948 14.531 13.775 14.729C13.601 14.928 13.428 14.952 13.131 14.804C12.834 14.654 11.876 14.341 10.741 13.329C9.858 12.541 9.261 11.568 9.088 11.27C8.915 10.973 9.069 10.812 9.218 10.664C9.352 10.531 9.515 10.317 9.664 10.144C9.813 9.97001 9.862 9.84601 9.961 9.64701C10.061 9.44901 10.011 9.27601 9.936 9.12701C9.862 8.97801 9.268 7.51501 9.02 6.92001C8.779 6.34101 8.534 6.42001 8.352 6.41001C8.178 6.40201 7.98 6.40001 7.782 6.40001C7.584 6.40001 7.262 6.47401 6.99 6.77201C6.717 7.06901 5.95 7.78801 5.95 9.25101C5.95 10.713 7.014 12.126 7.163 12.325C7.312 12.523 9.258 15.525 12.239 16.812C12.949 17.118 13.502 17.301 13.933 17.437C14.645 17.664 15.293 17.632 15.805 17.555C16.375 17.47 17.563 16.836 17.811 16.142C18.058 15.448 18.058 14.853 17.984 14.729C17.91 14.605 17.712 14.531 17.414 14.382H17.415ZM11.993 21.785H11.989C10.2184 21.7853 8.48037 21.3094 6.957 20.407L6.597 20.193L2.855 21.175L3.854 17.527L3.619 17.153C2.62914 15.5774 2.10529 13.7538 2.108 11.893C2.11 6.44301 6.544 2.00901 11.997 2.00901C14.637 2.00901 17.119 3.03901 18.985 4.90701C19.9054 5.82359 20.6349 6.91358 21.1313 8.11391C21.6277 9.31424 21.8811 10.6011 21.877 11.9C21.875 17.35 17.441 21.785 11.993 21.785V21.785ZM20.405 3.48801C19.3032 2.37893 17.9922 1.49955 16.5481 0.900811C15.1039 0.302074 13.5553 -0.00410676 11.992 1.046e-05C5.438 1.046e-05 0.102 5.33501 0.1 11.892C0.099 13.988 0.646 16.034 1.687 17.837L0 24L6.304 22.346C8.04787 23.2961 10.0021 23.794 11.988 23.794H11.993C18.547 23.794 23.883 18.459 23.885 11.901C23.8898 10.3383 23.5848 8.79011 22.9874 7.34604C22.3901 5.90198 21.5124 4.59068 20.405 3.48801" fill="black"/>
+							</g>
+							<defs>
+							<clipPath id="clip0_59_5">
+							<rect width="24" height="24" fill="white"/>
+							</clipPath>
+							</defs>
+						</svg>
+						<span> +79224805311</span></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Header
+		============================================= -->
+		<header id="header" class="transparent-header header dark no-sticky" data-responsive-class="not-dark">
+			<div id="header-wrap">
+				<div class="container">
+					<div class="header-row">
+
+						<!-- Logo
+						============================================= -->
+						<div id="logo" class="border-right-0">
+							<a href="index.html" class="standard-logo" data-dark-logo="images/stirka/logo.svg"><img src="images/stirka/logo.svg" alt="СтиркаКлик"></a>
+							<a href="index.html" class="retina-logo" data-dark-logo="images/stirka/logo.svg"><img src="images/stirka/logo.svg" alt="СтиркаКлик"></a>
+						</div><!-- #logo end -->
+
+						<div id="primary-menu-trigger">
+							<svg class="svg-trigger" viewBox="0 0 100 100"><path d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"></path><path d="m 30,50 h 40"></path><path d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"></path></svg>
+						</div>
+						
+						<!-- Primary Navigation
+						============================================= -->
+						<nav class="primary-menu not-dark with-arrows">
+
+							<ul class="mr-0 border-0 menu-container">
+								<!-- <li class="menu-item"><a class="menu-link" href="#"><div>Забрать вещи</div></a></li> -->
+								<li class="menu-item"><a class="menu-link" href="#"><div>Цены</div></a></li>
+								<li class="menu-item"><a class="menu-link" href="#"><div>Новости</div></a></li>
+								<li class="menu-item"><a class="menu-link" href="#"><div>Отзывы</div></a></li>
+								<li class="menu-item"><a class="menu-link" href="#"><div>О нас</div></a></li> 
+								<li class="menu-item"><a class="menu-link" href="#"><div>Вакансии</div></a></li>
+								<li class="menu-item"><a class="menu-link" href="#"><div>Контакты</div></a></li>
+							</ul>
+						</nav><!-- #primary-menu end -->
+					</div>
+				</div>
+			</div>
+			<div class="header-wrap-clone"></div>
+		</header><!-- #header end -->
+		<div class="fixHeader" style="display:none">
+			<div class="container">
+				<div class="fixHeader__wrap">
+					<div class="fixHeader__logo">
+						<a href="index.html" class="standard-logo" data-dark-logo="images/stirka/logo.svg"><img src="images/stirka/logo.svg" alt="СтиркаКлик"></a>
+					</div>
+					<div class="fixHeader__btn">
+						<a href="#" class="btn mt-2 text-dark bg-white rounded-lg px-4 py-3 nott ls0 shadow-sm"><i class="icon-apple1 mr-2"></i>Скачать в App Store</a>
+						<a href="#" class="ml-0 ml-lg-2 mt-2 btn text-dark bg-white rounded-lg px-4 py-3 nott ls0 shadow-sm"><i class="icon-google-play mr-2"></i>Скачать в App Play Store</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Slider
+		============================================= -->
+		<section id="slider" class="slider-element dark include-header" style="background-image: url('demos/landing/images/hero/1.svg');">
+			<div class="slider-inner flex-column">
+
+				<div class="vertical-middle">
+					<div class="container">
+						<div class="row align-items-lg-center no-gutters">
+
+							<div class="col-lg-6 col-md-6">
+								<h3 class="display-3 font-weight-bold text-white jwr__title">Стирка глажка по кг <br>с бесплатной доставкой</h3>
+								<p class="lead mb-4 font-weight-normal jwr_list">Забираем в течении часа</p>
+								<p class="lead mb-4 font-weight-normal jwr_list">Вернем чистое и глаженое в течении 24 часов</p>
+								<p class="lead mb-4 font-weight-normal jwr_list">Фиксированная цена <b>195</b> р за кг любых вещей, даже рубашек</p>
+								<p class="lead mb-4 font-weight-normal jwr_list">Минимальный заказ 5 кг</p>
+								<div>
+									<a href="#" class="btn mt-2 text-dark bg-white rounded-lg px-4 py-3 nott ls0 shadow-sm"><i class="icon-apple1 mr-2"></i>Скачать в App Store</a>
+									<a href="#" class="ml-0 ml-lg-2 mt-2 btn text-dark bg-white rounded-lg px-4 py-3 nott ls0 shadow-sm"><i class="icon-google-play mr-2"></i>Скачать в App Play Store</a>
+								</div>
+								<p class="text-white-50 text-uppercase mt-2 ls1 font-weight-medium"><small>Закажите стирку и глажку через приложение</small></p>
+							</div>
+
+							<div class="col-lg-1 d-md-none d-lg-block"></div>
+
+							<div class="col-lg-5 col-md-6 align-self-lg-end">
+								<div class="slide-imgs">
+									<!-- <img src="demos/landing/images/hero/1-2.png" alt="Image" class="card-img"> -->
+									<img src="demos/landing/images/hero/1-1.png" alt="Image" class="iphone-img">
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+
+				<!-- <div class="section-clients">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-8 col-md-7 d-flex align-items-lg-center flex-row">
+								<div class="col"><img src="demos/conference/images/sponcors/amazon.svg" alt="Clients"></div>
+								<div class="col"><img src="demos/conference/images/sponcors/netflix.svg" alt="Clients"></div>
+								<div class="col"><img src="demos/conference/images/sponcors/google.svg" alt="Clients"></div>
+								<div class="col"><img src="demos/conference/images/sponcors/linkedin.svg" alt="Clients"></div>
+							</div>
+						</div>
+					</div>
+				</div> -->
+
+			</div>
+		</section><!-- #slider end -->
+
+		<!-- Content
+		============================================= -->
+		<section id="content">
+			<div class="content-wrap pb-0">
+
+				<div class="container">
+					<div class="mx-auto center mt-4 bottommargin heading-block" style="max-width: 640px;">
+						<h5 class="text-uppercase ls1 text-muted mb-3">Стираем, гладим в один клик</h5>
+						<h2 class="nott mb-4">Услуги</h2>
+					</div>
+
+					<div class="features-items mx-auto" style="max-width: 1000px;">
+						<div class="row justify-content-around">
+							<div class="col-md-4 jwr__u_card">
+								<div class="feature-box media-box">
+									<div class="card__img_erap">
+										<img src="images/0fin/u1.jpg" class="card_img">
+									</div>
+									<div class="fbox-content">
+										<h2 class="h4 font-weight-bold mb-4">Стирка пуховиков</h2>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-4 jwr__u_card">
+								<div class="feature-box media-box">
+									<div class="card__img_erap">
+										<img src="images/0fin/u2.jpg" class="card_img">
+									</div>
+									<div class="fbox-content">
+										<h2 class="h4 font-weight-bold mb-4">Простая стирка</h2>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-4 jwr__u_card">
+								<div class="feature-box media-box">
+									<div class="card__img_erap">
+										<img src="images/0fin/u3.jpg" class="card_img">
+									</div>
+									<div class="fbox-content">
+										<h2 class="h4 font-weight-bold mb-4">Стирка с глажкой</h2>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="features-items mx-auto" style="max-width: 1000px;">
+							<div class="row justify-content-around">
+								<div class="col-md-6">
+									<div class="lead font-weight-normal text-black-50 jwr__u_desc">
+										<strong>Стирка+глажка 195 р/кг</strong>
+										<p class="lead mb-4 font-weight-normal jwr_list">Можете сдать любые вещи которые можно стирать</p>
+										<p class="lead mb-4 font-weight-normal jwr_list">Стираем без пятновыведения</p>
+										<p class="lead mb-4 font-weight-normal jwr_list">Забираем в ваших пакетах, возвращаем в наших чистых пакетах</p>
+										<p class="lead mb-4 font-weight-normal jwr_list">Вещи взвесим перед стиркой и сообщим точное количество кг</p>
+										<p class="lead mb-4 font-weight-normal jwr_list">Рубашки аккуратно складываем в пакет</p>
+										<p class="lead mb-4 font-weight-normal jwr_list">Стираем отдельно вещи каждого клиентаМожем забрать ваши чистые вещи и просто погладить, стоит так же</p>
+										<p class="lead mb-4 font-weight-normal jwr_list">Нельзя стирать меховые и кожаные изделия, дизайнерские и декоративные вещи</p>
+										<p class="lead mb-4 font-weight-normal jwr_list">Минимальный заказ 5 кг</p>
+										<a href="#" class="btn text-white bg-color rounded-lg px-4 py-3 font-weight-semibold text-uppercase shadow-sm main_color_bcg">Вызвать курьера</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+				<div class="clear"></div>
+
+				<div class="row align-items-stretch align-content-stretch no-gutters topmargin main_color_bcg">
+
+					<div class="col-md-6 order-md-2" style="background: url('images/0fin/bg-point.png') center center / cover; min-height: 300px"></div>
+
+					<div class="col-md-6 bg-color dark order-md-1">
+						<div class="section-features">
+							<h3 class="display-3 font-weight-bold text-white jwr__title">Это очень просто, как 1-2-3!</h3>
+							<h2 class="mb-3 h4 font-weight-semibold">Заявка</h2>
+							<p class="h6 font-weight-normal mb-5">Вы оставляете заявку через мобильное приложение <br><strong>от 2 минут<strong></p>
+
+							<h2 class="mb-3 h4 font-weight-semibold">Забираем вещи</h2>
+							<p class="h6 font-weight-normal mb-5">Складываете вещи в пакет. Курьер приезжает на указанный адрес и забирает заказ<br><strong>от 10 до 60 мину<strong></p>
+
+							<h2 class="mb-3 h4 font-weight-semibold">Готово!</h2>
+							<p class="h6 font-weight-normal mb-5">Ваши вещи выстираны,
+								выглажены и аккуратно сложены.
+								Курьер доставит их в удобное
+								для вас время и место.<br><strong>от 6 часов<strong></p>
+						</div>
+					</div>
+				</div>
+
+				<div class="section bg-transparent">
+					<div class="container">
+						<div class="row align-items-center">
+
+							<div class="col-lg-5 col-md-6 mb-4 mb-md-0">
+								<img src="images/0fin/washing-machine.png" alt="Image">
+							</div>
+
+							<div class="col-md-6 offset-lg-1">
+								<div class="heading-block border-bottom-0 mb-4">
+									<img src="images/0fin/washer.svg" class="icon-line-paper h1 color" style="width: 50px;">
+									<h3 class="nott ls0">Стирка под ключ</h3>
+								</div>
+								<p class="font-weight-normal lead">Все, что требуется от вас - положить вещи в пакет и открыть дверь курьеру. Остальные заботы исполнитель берет на себя. <b>Качественная услуга</b> - Стираем гипоаллергенным гелем Synergetic</p>
+
+								<div class="clear"></div>
+								<div class="row my-5">
+									<div class="col-md-9">
+										<div class="feature-box fbox-plain">
+											<div class="fbox-icon">
+												<a href="#"><i class="icon-line2-bulb text-primary"></i></a>
+											</div>
+											<div class="fbox-content">
+												<h3>Деликатная приемка</h3>
+												<p>Процесс приемки проходит незаметно для клиента.
+													Курьер не тратит ваше время на осмотр грязного белья.</p>
+											</div>
+										</div>
+										<div class="line line-sm"></div>
+									</div>
+									<div class="col-md-9">
+										<div class="feature-box fbox-plain">
+											<div class="fbox-icon">
+												<a href="#"><i class="icon-line2-bulb text-warning"></i></a>
+											</div>
+											<div class="fbox-content">
+												<h3>Оперативная связь</h3>
+												<p>Если в ходе приемки исполнитель обнаружит проблему,
+													то сразу свяжется с вами.</p>
+											</div>
+										</div>
+										<div class="line line-sm"></div>
+									</div>
+									<div class="col-md-9">
+										<div class="feature-box fbox-plain">
+											<div class="fbox-icon">
+												<a href="#"><i class="icon-line2-bulb text-danger"></i></a>
+											</div>
+											<div class="fbox-content">
+												<h3>Соблюдение технологий</h3>
+												<p>Стирка и глажка с учетом рекомендаций на ярлыках.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- <ul class="skills mt-2 mb-5">
+									<li data-percent="60">
+										<span>Version 6.0</span>
+										<div class="progress">
+											<div class="progress-percent"><div class="counter counter-inherit counter-instant"><span data-from="0" data-to="60" data-refresh-interval="30" data-speed="1500"></span>% Optimized</div></div>
+										</div>
+									</li>
+								</ul> -->
+
+								<a href="#" class="btn text-white bg-color rounded-lg px-4 py-3 font-weight-semibold text-uppercase shadow-sm main_color_bcg">Вызвать курьера</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="section m-0" style="padding: 100px 0; background-color: rgba(61,128,228,0.05)">
+
+					<div class="container clearfix">
+
+						<div class="heading-block mx-auto center" style="max-width: 500px">
+							<!-- <h5 class="text-uppercase ls1 text-muted mb-2">Gallery</h5> -->
+							<h2 class="nott mb-3">Почему именно СтиркаКлик</h2>
+							<!-- <p class="h6 font-weight-normal text-black-50">Recusandae ducimus, sequi, sapiente possimus optio impedit efficient services. Completely promote.</p> -->
+						</div>
+						<div class="row justify-content-around">
+							<div class="col-md-3 ">
+								<div class="feature-box media-box">
+									<div class="fbox-icon jwr__fi">
+										<i class="icon-shipping-fast"></i>
+									</div>
+									<div class="fbox-content">
+										<h2 class="h4 fw-bold mb-4">Бесплатная доставка</h2>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 ">
+								<div class="feature-box media-box">
+									<div class="fbox-icon jwr__fi">
+										<i class="icon-ruble-sign"></i>
+									</div>
+									<div class="fbox-content">
+										<h2 class="h4 fw-bold mb-4">Фиксированная цена за кг</h2>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 ">
+								<div class="feature-box media-box">
+									<div class="fbox-icon jwr__fi">
+										<i class="icon-line2-speedometer"></i>
+									</div>
+									<div class="fbox-content">
+										<h2 class="h4 fw-bold mb-4">Скорость выполнения заказа</h2>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 ">
+								<div class="feature-box media-box">
+									<div class="fbox-icon jwr__fi">
+										<i class="icon-users"></i>
+									</div>
+									<div class="fbox-content">
+										<h2 class="h4 fw-bold mb-4">Доступно каждому</h2>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					
+
+				</div>
+
+				<div class="section m-0 parallax" style="padding: 100px 0;" data-0-top="background-color:rgb(37,169,225);" data-center-bottom="background-color:rgb(24,124,167);">
+					<div class="container">
+						<div class="row justify-content-between">
+							<div class="col-xl-4 col-lg-5 col-md-6 dark dotted-bg">
+								<div class="heading-block border-bottom-0 bottommargin-sm">
+									<i class="icon-credit h1"></i>
+									<h2 class="nott" style="font-size: 36px;">СтирКаклик- это выгодно</h2>
+								</div>
+								<div class="font-weight-normal lead">Посмотрите на серднюю стоимость стирки в других сервисах и химчистках, и у нас.</div>
+
+								<!-- <p class="text-white-50 mt-5">During Free trail you won't be charge and you can freely use this app without <a href="#" class="text-white"><u>Terms and Condtions</u></a>.</p> -->
+							</div>
+							<div class="col-lg-7 col-md-6">
+								<div class="row">
+									<div class="col-lg-6 pricing-table">
+										<div class="card shadow" style="background-image: url('demos/landing/images/section/pricing-bg-light.svg'); background-position: 0 100%; background-size: 100% 290px;">
+											<!-- <h5 class="text-uppercase ls1 mb-2">Startup</h5> -->
+											<h2 class="ls0 font-weight-bold mb-3">Сетевые химчистки и сервисы</h2>
+											<!-- <p class="mb-5 text-black-50">Phosfluorescently negotiate alternative human capital with fully tested leadership skills. Quickly enable.</p> -->
+											<ul class="iconlist">
+												<li><i class="icon-line-circle-minus color"></i>1 джинсы за 600₽</li>
+												<li><i class="icon-line-circle-minus color"></i>1 кг постельного белья за 800₽</li>
+												<li><i class="icon-line-circle-minus color"></i>Обрабатывают заказ 2 дня</li>
+												<li><i class="icon-line-circle-minus color"></i>Клиенты сдают бельё самостоятельно</li>
+												<li><i class="icon-line-circle-minus color"></i>Негибкие интервалы доставки</li>
+												<li><i class="icon-line-circle-minus color"></i>Платная доставка</li>
+											</ul>
+										</div>
+									</div>
+
+									<div class="col-lg-6 pricing-table mt-4 mt-lg-0">
+										<div class="card shadow" style="background-image: url('demos/landing/images/section/pricing-bg.svg');">
+											<!-- <h5 class="text-uppercase ls1 text-white-50 mb-2">Pro</h5> -->
+											<h2 class="ls0 font-weight-bold mb-5 text-white">СтирКаклик</h2>
+											<p class="mt-2 text-black-50"><br></p>
+											<ul class="iconlist">
+												<li><i class="icon-check-circle color"></i>12 джинсов за 1000₽</li>
+												<li><i class="icon-check-circle color"></i>6 кг белья за 1000₽</li>
+												<li><i class="icon-check-circle color"></i>Стирка день в день</li>
+												<li><i class="icon-check-circle color"></i>Курьер приедет и заберет вещи в течение часа</li>
+												<li><i class="icon-check-circle color"></i>Возврат в удобное вам время</li>
+												<li><i class="icon-check-circle color"></i>Бесплатная доставка</li>
+											</ul>
+											<a href="#" class="btn btn-block text-white bg-color rounded-lg p-3 font-weight-semibold text-uppercase">Вызвать курьера</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row justify-content-center dark topmargin">
+							<div class="col-md-7">
+								<h2 class="text-center text-white mb-5 mt-4 font-weight-semibold">Часто задаваемые вопросы</h2>
+								<div class="toggle-wrap">
+									<div class="toggle">
+										<div class="toggle-header">
+											<div class="toggle-icon">
+												<i class="toggle-closed icon-angle-right1"></i>
+												<i class="toggle-open icon-angle-down1"></i>
+											</div>
+											<div class="toggle-title">
+												Можно отдать стиранные вещи просто погладить?
+											</div>
+										</div>
+										<div class="toggle-content">Можно отдать стиранные вещи просто погладить?</div>
+									</div>
+
+									<div class="toggle">
+										<div class="toggle-header">
+											<div class="toggle-icon">
+												<i class="toggle-closed icon-angle-right1"></i>
+												<i class="toggle-open icon-angle-down1"></i>
+											</div>
+											<div class="toggle-title">
+												Можно еще дешевле?
+											</div>
+										</div>
+										<div class="toggle-content">Да, можно!) При заказе через приложение кэшбек 100% за первый заказ бонусами.  Такж же через приложение можно пригласить подругу/друга и он и вы получите по 300 р на бонусный баланс</div>
+									</div>
+
+									<div class="toggle">
+										<div class="toggle-header">
+											<div class="toggle-icon">
+												<i class="toggle-closed icon-angle-right1"></i>
+												<i class="toggle-open icon-angle-down1"></i>
+											</div>
+											<div class="toggle-title">
+												Если мои вещи испортят?
+											</div>
+										</div>
+										<div class="toggle-content">Все вещи застрахованы на 5000р.</div>
+									</div>
+
+									<div class="toggle">
+										<div class="toggle-header">
+											<div class="toggle-icon">
+												<i class="toggle-closed icon-angle-right1"></i>
+												<i class="toggle-open icon-angle-down1"></i>
+											</div>
+											<div class="toggle-title">
+												Какими средствами стирают вещи?
+											</div>
+										</div>
+										<div class="toggle-content">Все вещи Стираются гипоаллергенным гелем Synergetic</div>
+									</div>
+								</div>
+								<h5 class="mt-4 text-center font-weight-normal text-white-50 mb-0">Остались вопросы? <a href="#" class="text-white"><u>Напишите нам</u></a></h5>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- <div class="section m-0 bg-transparent pb-0" style="padding-top: 100px;">
+					<div class="container clearfix">
+						<div class="row">
+							<div class="col-lg-6 mb-5">
+								<h2 class="font-weight-bold h2 mb-4">Experienced by <span>46,000+</span> People.</h2>
+								<p class="font-weight-normal mb-2 h6 text-muted">Enthusiastically morph unique web-readiness via impactful platforms. Intrinsicly matrix premium expertise for diverse expertise. Intrinsicly drive collaborative bandwidth for accurate testing.</p>
+
+								<div class="row my-5">
+									<div class="col-md-9">
+										<div class="feature-box fbox-plain">
+											<div class="fbox-icon">
+												<a href="#"><i class="icon-line2-screen-desktop text-primary"></i></a>
+											</div>
+											<div class="fbox-content">
+												<h3>Responsive Layout</h3>
+												<p>Powerful Layout with Responsive functionality that can be adapted to any screen size. Resize browser to view.</p>
+											</div>
+										</div>
+										<div class="line line-sm"></div>
+									</div>
+									<div class="col-md-9">
+										<div class="feature-box fbox-plain">
+											<div class="fbox-icon">
+												<a href="#"><i class="icon-line2-bulb text-warning"></i></a>
+											</div>
+											<div class="fbox-content">
+												<h3>Light &amp; Dark Color Scheme</h3>
+												<p>Change your Website's Primary Scheme instantly by simply adding the dark class to the body.</p>
+											</div>
+										</div>
+										<div class="line line-sm"></div>
+									</div>
+									<div class="col-md-9">
+										<div class="feature-box fbox-plain">
+											<div class="fbox-icon">
+												<a href="#"><i class="icon-line2-support text-danger"></i></a>
+											</div>
+											<div class="fbox-content">
+												<h3>Extensive Documentation</h3>
+												<p>We have covered each &amp; everything in our Documentation including Videos &amp; Screenshots.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-1"></div>
+
+							<div class="col-lg-5 d-flex align-items-end">
+								<div class="device-video-wrap">
+									<img src="demos/landing/images/iphone-hand.png" alt="Image">
+									<video poster="images/videos/explore-poster.jpg" preload="auto" loop autoplay muted>
+										<source src='demos/landing/images/form-video.mp4' type='video/mp4' />
+									</video>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="section m-0 bg-color" style="padding: 100px 0; background-image: linear-gradient(to bottom, #3D80E4 0%, #0a4bab 80%, #FFF 80%);">
+					<div class="container dark dotted-bg bottommargin-lg">
+						<div class="fslider testimonial testimonial-full center bg-transparent border-0 shadow-none p-0" data-animation="fade" data-pagi="false">
+							<div class="flexslider">
+								<div class="slider-wrap d-flex align-items-center">
+									<div class="slide">
+										<img src="demos/landing/images/clients/skype.svg" alt="Customer Testimonials">
+										<div class="testi-content">
+											<p>Completely restore optimal human capital with economically sound infomediaries. Authoritatively extend end-to-end content with covalent relationships.</p>
+											<div class="testi-meta mt-4">
+												Steve Jobs
+												<span>Apple Inc.</span>
+											</div>
+										</div>
+									</div>
+									<div class="slide">
+										<img src="demos/landing/images/clients/netflix.svg" alt="Customer Testimonials">
+										<div class="testi-content">
+											<p>Dynamically supply cross functional process improvements whereas enterprise-wide ROI. Distinctively streamline cost effective data and multifunctional functionalities.</p>
+											<div class="testi-meta mt-4">
+												Collis Ta'eed
+												<span>Envato Inc.</span>
+											</div>
+										</div>
+									</div>
+									<div class="slide">
+										<img src="demos/landing/images/clients/nat-geo.svg" alt="Customer Testimonials">
+										<div class="testi-content">
+											<p> Globally implement strategic resources via ethical markets. Interactively drive highly efficient potentialities before economically sound applications communicate solutions.</p>
+											<div class="testi-meta mt-4">
+												John Doe
+												<span>XYZ Inc.</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="container dark"><div class="line"></div></div> -->
+
+					<!-- <div class="container clearfix">
+						<div class="row mx-auto dotted-bg" style="max-width: 740px">
+							<div class="col-md-12">
+								<div class="center dark mb-5">
+									<i class="icon-line-help h1 "></i>
+									<h2 class="font-weight-bold mb-2">Need Help?</h2>
+									<p class="font-weight-normal mb-2 lead">Enthusiastically morph unique web-readiness via impactful platforms.</p>
+								</div>
+
+								<div class="card bg-white shadow-lg border-0">
+									<div class="card-body p-5">
+										<div class="form-widget" data-loader="button" data-alert-type="inline">
+
+											<div class="form-result"></div>
+
+											<form class="row mb-0" id="landing-enquiry" action="include/form.php" method="post" enctype="multipart/form-data">
+												<div class="form-process"></div>
+												<div class="col-12 form-group mb-4">
+													<label>Name:</label>
+													<input type="text" name="landing-enquiry-name" id="landing-enquiry-name" class="form-control form-control-lg required" value="" placeholder="John Doe">
+												</div>
+												<div class="col-12 form-group mb-4">
+													<label>Email:</label>
+													<input type="email" name="landing-enquiry-email" id="landing-enquiry-email" class="form-control form-control-lg required" value="" placeholder="user@company.com">
+												</div>
+												<div class="col-12 form-group mb-4">
+													<label>Phone:</label><br>
+													<div class="input-group input-group-lg">
+														<select class="custom-select required" name="landing-enquiry-idd" id="landing-enquiry-idd" style="max-width: 80px;">
+															<option value="+1">+1</option>
+															<option value="+44">+44</option>
+															<option value="+66">+66</option>
+															<option value="+62">+62</option>
+															<option value="+61">+61</option>
+															<option value="+852">+852</option>
+															<option value="+65">+61</option>
+															<option value="+33">+61</option>
+															<option value="+49">+49</option>
+														</select>
+														<input type="text" name="landing-enquiry-phone" id="landing-enquiry-phone" class="form-control form-control-lg required" value="" placeholder="02-232-2424">
+													</div>
+												</div>
+												<div class="col-12 form-group mb-4">
+													<label>Message:</label>
+													<textarea name="landing-enquiry-additional-requirements" id="landing-enquiry-additional-requirements" class="form-control form-control-lg" cols="30" rows="5" placeholder="Please let us know how we can help you..."></textarea>
+												</div>
+												<div class="col-12 d-none">
+													<input type="text" id="landing-enquiry-botcheck" name="landing-enquiry-botcheck" value="" />
+												</div>
+												<div class="col-12">
+													<button type="submit" name="landing-enquiry-submit" class="btn btn-block text-white bg-color rounded-lg py-3 font-weight-semibold text-uppercase mt-2">Contact Us</button>
+												</div>
+
+												<input type="hidden" name="prefix" value="landing-enquiry-">
+											</form>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div> -->
+				</div>
+
+			</div>
+
+		</section><!-- #content end -->
+
+		<!-- Footer
+		============================================= -->
+		<footer id="footer" class="bg-white border-0">
+
+			<div class="container">
+				<div class="footer-widgets-wrap pt-2 pb-5">
+
+					<div class="row mx-auto">
+
+						<div class="col-md-12">
+							<div class="row">
+								<div class="col-md-6 col-6">
+									<div class="widget widget_links">
+										<h4 class="ls0 ls0">Кнотакты</h4>
+										<ul>
+											<li>Телефон: <a href="#">+7 922 480-53-11</a></li>
+											<li>Email: <a href="#">stirkaclick@gmail.com</a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="col-md-6 col-6">
+									<div class="widget widget_links">
+										<h4 class="ls0 ls0">ПРАВОВАЯ ИНФОРМАЦИЯ</h4>
+										<ul>
+											<li><a href="#">Согласие пользователя на обработку персональных данных</a></li>
+											<li><a href="#">Политика в отношении обработки персональных данных </a></li>
+											<li><a href="#">Договор возмездного оказания услуг</a></li>
+											<li><a href="#">Пользовательское соглашение</a></li>
+										</ul>
+
+									</div>
+								</div>
+							</div>
+							<div class="line line-sm"></div>
+							<div class="row align-items-center">
+								<!-- <div class="col-md-8">
+									Conveniently pontificate interdependent mindshare via standards compliant applications. Rapidiously empower effective metrics.
+								</div> -->
+
+								<div class="col-md-4 mt-3 mt-md-0">
+									<a href="#" class="social-icon si-small si-colored si-facebook" title="Facebook">
+										<i class="icon-facebook"></i>
+										<i class="icon-facebook"></i>
+									</a>
+
+									<a href="#" class="social-icon si-small si-colored si-instagram" title="Instagram">
+										<i class="icon-instagram"></i>
+										<i class="icon-instagram"></i>
+									</a>
+
+									<a href="#" class="social-icon si-small si-colored si-twitter" title="Twitter">
+										<i class="icon-twitter"></i>
+										<i class="icon-twitter"></i>
+									</a>
+
+									<a href="#" class="social-icon si-small si-colored si-appstore" title="Apple">
+										<i class="icon-apple"></i>
+										<i class="icon-apple"></i>
+									</a>
+
+									<a href="#" class="social-icon si-small si-colored si-android" title="Android">
+										<i class="icon-android"></i>
+										<i class="icon-android"></i>
+									</a>
+
+								</div>
+							</div>
+						</div>
+
+						<!-- <div class="col-md-4 mt-4 mt-md-0">
+							<div class="widget">
+
+								<h4 class="ls0 ls0">From the Blog</h4>
+
+								<article class="entry">
+									<div class="entry-image mb-3">
+										<a href="demos/news/news-single.html"><img src="demos/landing/images/blog-img.jpg" alt="Image 3"></a>
+									</div>
+									<div class="entry-title title-xs">
+										<h3 class="mb-2"><a href="demos/news/news-single.html">A Surprising Tool to Help you Lifestyle</a></h3>
+									</div>
+									<div class="entry-desc">
+										<p class="text-black-50">Quickly maintain covalent supply chains for multidisciplinary scenarios. Competently visualize.</p>
+									</div>
+								</article>
+							</div>
+						</div> -->
+
+					</div>
+
+				</div>
+			</div>
+
+			<div id="copyrights" class="bg-color dark py-5">
+				<div class="container">
+
+					<div class="row col-mb-30">
+						<div class="col-md-6 text-center text-md-left">
+							Copyrights &copy; 2021 Все права защищены<br>
+							<div class="copyright-links"><a href="#" class="text-white-50"></a><a href="#" class="text-white-50">Политика конфеденциальности</a></div>
+						</div>
+
+						<div class="col-md-6 text-center text-md-right">
+							<a href="#" class="btn color bg-white rounded px-3 py-2 nott ls0 shadow-sm"><i class="icon-apple1 mr-2"></i>App Store</a>
+							<a href="#" class="btn color bg-white rounded px-3 py-2 nott ls0 shadow-sm ml-2"><i class="icon-google-play mr-2"></i>Play Store</a>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+		</footer><!-- #footer end -->
+
+	</div><!-- #wrapper end -->
+
+	<!-- Go To Top
+	============================================= -->
+	<div id="gotoTop" class="icon-angle-up"></div>
+
+	<!-- JavaScripts
+	============================================= -->
+	<script src="js/jquery.js"></script>
+	<script src="js/plugins.min.js"></script>
+
+
+	<!-- Footer Scripts
+	============================================= -->
+	<script src="js/functions.js"></script>
+	<script src="js/jwr.js"></script>
+
+	<script>
+
+	</script>
+
+</body>
+</html>
