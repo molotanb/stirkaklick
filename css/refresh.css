@@ -75,4 +75,11 @@ i.icon-line-circle-minus.color:before {
     .fixHeader {
         display: none !important;
     }
+    .topheader {
+        display: none;
+    }
+    #header-wrap {
+        background-color: #30ade2;
+        padding: 10px 0;
+    }
 }
