@@ -43,17 +43,24 @@
     margin-top: 0!important;
 }
 .topheader__phone svg {
-    width: 15px;
+    width: 18px;
 }
 img.card_img {
     margin-bottom: 15px;
 }
 .jwr__u_card h2 {
-   text-align: center;
+    text-align: center;
 
 }
 .jwr__u_desc {
-    text-align: center;
+    text-align: left;
+    color: #555 !important;
+}
+.jwr__u_desc strong {
+    background: #25a9e1;
+    padding: 5px 10px;
+    color: #fff;
+    font-size: 25px;
 }
 .pricing-table .card h2 {
     font-size: 30px;
@@ -71,6 +78,54 @@ footer#footer {
 i.icon-line-circle-minus.color:before {
     color: #b10101;
 }
+#logo {
+    flex-wrap: wrap;
+    
+}
+.time_work {
+    text-align: center;
+    width:100%;
+    display:inline-block;
+    margin-top: -13px;
+}
+header#header {
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    background: #25a9e1 !important;
+    z-index: 999;
+}
+.header__info {
+    padding-right: 13px;
+    width: 450px;
+    box-sizing: border-box;
+}
+.topheader__phone a {
+    color: #fff;
+    font-size: 22px;
+}
+div#header-wrap span {
+    color: #fff;
+}
+.img_tup {
+    display: flex;
+    justify-content: center;
+}
+.two_tup {
+    margin-top: 210px;
+}
+.last_tup {
+    margin-top: 350px;
+}
+img.card_img {
+    height: 540px;
+}
+.tup_col1 {
+    text-align: right;
+}
+.tup {
+    margin-top: 50px;
+}
 @media (max-width:768px) {
     .fixHeader {
         display: none !important;
@@ -83,5 +138,37 @@ i.icon-line-circle-minus.color:before {
         padding: 10px 0;
         position: fixed;
         z-index: 99;
+    }
+    #logo {
+        flex-wrap: wrap;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .header__info {
+        width: 100%;
+    }
+    .topheader__phone {
+        display: flex;
+        justify-content: center;
+    }
+    .topheader__desc {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    nav.not-dark.with-arrows {
+        width: 100%;
+    }
+    nav.not-dark.with-arrows div {
+        display: flex;
+        justify-content: space-between;
+    }
+    div#header-wrap {
+        padding: 22px 0;
+    }
+    
+    .slider-element {
+        padding-top: 316px;
     }
 }
